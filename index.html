@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>노래 추천 by Me</title>
+  <meta charset="UTF-8" />
+  <title>노래 추천 by moonasw</title>
   <style>
+    /* 상단 검은 바 숨기기 */
+    header.Header {
+      display: none !important;
+    }
     body {
-      margin: 0;
-      padding: 0;
+      margin: 0; padding: 0;
       background-color: #f9f5ef;
       font-family: 'Nanum Pen Script', cursive;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
       min-height: 100vh;
     }
-
     .poster {
       max-width: 300px;
       margin-bottom: 20px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
       border-radius: 12px;
     }
-
     .note {
       background: #fffbea;
       padding: 25px 35px;
@@ -35,11 +34,11 @@
       line-height: 2;
     }
   </style>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <img src="https://i.imgur.com/QG5G0U0.jpg" alt="poster" class="poster">
+  <img src="https://i.imgur.com/QG5G0U0.jpg" alt="poster" class="poster" />
 
   <div class="note">
     🎵 요즘 내가 자주 듣는 노래들
@@ -57,3 +56,4 @@
 
 </body>
 </html>
+
